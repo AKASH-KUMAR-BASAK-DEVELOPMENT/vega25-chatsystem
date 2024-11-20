@@ -1,0 +1,14 @@
+{
+    "name": "vega25-chatsystem/chat-sdk",
+    "description": "A simple chat SDK for Laravel",
+    "autoload": {
+        "psr-4": {
+            "ChatSdk\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.0|^9.0"
+    }
+}
