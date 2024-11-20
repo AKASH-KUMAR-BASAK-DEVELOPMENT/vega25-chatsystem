@@ -1,0 +1,21 @@
+{
+    "name": "vega25/chat-sdk",
+    "description": "A custom chat SDK package for Laravel.",
+    "autoload": {
+        "psr-4": {
+            "Vega25\\ChatSdk\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/vega25/chat-sdk"
+        }
+    ],
+    "require": {
+        "vega25/chat-sdk": "*"
+    }
+
+}

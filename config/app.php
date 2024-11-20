@@ -125,7 +125,7 @@ return [
 
     'providers' => [
         // Other providers...
-        ChatSdk\ChatService::class,
+        Vega25\ChatSdk\ChatServiceProvider::class,
     ],
 
 
